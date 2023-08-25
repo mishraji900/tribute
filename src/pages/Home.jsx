@@ -6,8 +6,8 @@ import Details from "../components/Details";
 
 const Home = () => {
   return (
-    <div className='bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-zinc-900 to-zinc-800 p-10'>
-      <div>
+    <div className='bg-black p-10'>
+      <div className='border-b-2'>
         <Header/>
       </div>
       <div>
@@ -16,8 +16,11 @@ const Home = () => {
       <div>
         <Biography/>
       </div>
-      <div>
+      <div className='border-b-2'>
         <Details/>
+      </div>
+      <div className='text-white font-Barrieci font-semibold text-center text-xl pt-7'>
+        Made by Mayank Mishra
       </div>
     </div>
   )
